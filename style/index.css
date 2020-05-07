@@ -98,7 +98,7 @@ p{
         flex-direction:row;
         justify-content:space-evenly;
         padding:2rem;
-        flex-wrap:nowrap;s
+        flex-wrap:wrap;
     }
 }
 @media(max-width:500px){
