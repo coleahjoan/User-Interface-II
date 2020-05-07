@@ -1,5 +1,6 @@
 /* Add CSS styling here */
 
+/*header section 1*/
 
 h1{
     text-align:center;
@@ -16,7 +17,6 @@ nav{
 
 .intro nav a{
     margin: 0 px;
-    border:5px black;
     padding: 3px;
     display: inline-block;
     border-radius: 15px;
@@ -24,6 +24,14 @@ nav{
     margin-bottom:20px;
     background:black;
 }
+/*nav animation*/
+
+.intro nav a:hover{
+    background:aliceblue;
+    color:black;
+}
+
+/*header content*/
 
 h2{
     text-align:center;
@@ -61,7 +69,7 @@ p{
     max-width:100%;
     max-height:80%;
 }
-
+/*footer and footer animation*/
 footer a{
     margin: 0 px;
     border:5px black;
@@ -74,4 +82,8 @@ footer a{
     font-size:25px;
     margin-left:50%;
     margin-right:50%;
+}
+footer a:hover{
+    background:aliceblue;
+    color:black;
 }
