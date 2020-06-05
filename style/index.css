@@ -65,7 +65,9 @@ a{
     margin:1rem;
     border:1px solid gray;
 }
-
+a:hover{
+    opacity:0.8;
+}
 /*end of header section styling*/
 
 /*hero image styling*/
@@ -78,8 +80,7 @@ a{
 .heroImage{
     max-width:100%;
     padding:6rem;
-    opacity:0.8;
-    
+    opacity:0.8; 
 }
 h1{
     font-size:15rem;
@@ -169,6 +170,90 @@ h3{
     padding:3rem;
 }
 /*end of about me styling*/
-.project1{
+
+/*project page styling*/
+
+.projectHeader{
+    background-color:paleturquoise;
+    justify-content:center;
+    border:2px solid gray;
+    text-align:center;
+}
+.projectHeader h1{
+    font-size:13.5rem;
+}
+.projectHeader h2{
+    font-size:8rem;
+    padding:2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+.projectOne{
     display:flex;
+}
+.projectTwo{
+    display:flex;
+}
+.projectOne{
+    border:1px dashed gray;
+    margin:3rem;
+    background-color:aliceblue;
+    padding:3rem;
+}
+.projectTwo{
+    border:1px dashed gray;
+    margin:3rem;
+    background-color:aliceblue;
+    padding:3rem;
+}
+.mainProjects img{
+    width:25%;
+    margin:2rem;
+}
+.project1Text{
+    padding:10rem;
+}
+.project2Text{
+    padding:10rem;
+}
+
+/*end of project page styling*/
+.contactHeader{
+    background-color:paleturquoise;
+    justify-content:center;
+    border:2px solid gray;
+    text-align:center;
+}
+.contactHeader h1{
+    font-size:13.5rem;
+}
+.contactHeader h2{
+    font-size:8rem;
+    padding:2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+.fa {
+    padding:2rem;
+    font-size:5rem;
+    width:5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius:30%;
+    margin-left:18rem;
+    /*margin-right:5rem;*/
+    border:1px dashed gray;
+    background-color:aliceblue;
+    color:slategray;
+}
+.contactImage{
+    max-width:100%;
+    padding:6rem;
+    opacity:0.8; 
+}
+.contactIcons{
+    position:absolute;
+    top:90%;
+    /*left:50%;*/
+    transform:translate(-10%,-1 0%);
 }
