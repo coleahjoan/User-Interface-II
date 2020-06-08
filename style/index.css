@@ -37,6 +37,7 @@ html{
 body{
     background-color:lemonchiffon;
     font-family: 'Proza Libre', sans-serif;
+    color:slategray;
     /*border:2px solid gray;*/
 }
 /*end of general styling*/
@@ -66,7 +67,9 @@ a{
     border:1.25px solid gray;
     text-shadow: darkgray .5px .5px 0;
 }
-
+a:hover{
+    opacity:0.8;
+}
 /*end of header section styling*/
 
 /*hero image styling*/
@@ -79,8 +82,7 @@ a{
 .heroImage{
     max-width:100%;
     padding:6rem;
-    opacity:0.8;
-    
+    opacity:0.8; 
 }
 h1{
     font-size:15rem;
